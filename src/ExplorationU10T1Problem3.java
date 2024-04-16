@@ -1,16 +1,16 @@
-public class ExplorationU10T1Problem1
+public class ExplorationU10T1Problem3
 {
     public static void main(String [] args)
     {
-        simpleRecursion(5);
+        recursiveMethod(4);
     }
 
-    public static void simpleRecursion(int n)
+    public static void recursiveMethod(int n)
     {
         System.out.println("Called, n = " + n);
         if (n > 2)
         {
-            simpleRecursion(n - 1);
+            recursiveMethod(n + 1);
         }
         System.out.println("Ended, n = " + n);
     }
